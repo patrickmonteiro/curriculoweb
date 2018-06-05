@@ -22,7 +22,7 @@
         </div>
     </div> -->
     <div>
-      <section class="hero is-primary is-bold hero-bottom">
+      <section class="hero is-info hero-bottom">
         <div class="hero-body">
           <div class="container">
 
@@ -35,24 +35,21 @@
                   <h2 class="subtitle">
                     Especialista em Desenvolvimento Web
                   </h2>
-                   <a class="button is-primary" style="border-radius:50%" title="Github">
+                   <a class="button is-light has-text-link" style="border-radius:50%" title="Github"
+                   href="https://github.com/patrickmonteiro">
                       <span class="icon">
                         <icon name="brands/github" scale="1.7"></icon>
                       </span>
                     </a>
-                    <a class="button is-primary" style="border-radius:50%">
+                    <a class="button is-light has-text-link" style="border-radius:50%"
+                    href="https://www.linkedin.com/in/engpatrickmonteiro/">
                       <span class="icon">
-                        <icon name="brands/facebook-f" scale="1.3"></icon>
-                      </span>
-                    </a>
-                    <a class="button is-primary" style="border-radius:50%">
-                      <span class="icon">
-                        <icon name="camera" scale="1"></icon>
+                        <icon name="brands/linkedin-in" scale="1"></icon>
                       </span>
                     </a>
                 </div>
               </div>
-              <div class="level-right has-text-centered">
+              <div class="level-left has-text-centered">
                 <div class="level-item">
                     <figure class="image is-128x128 figure-head" >
                     <img src="http://patrickmonteiro.com.br/img/patrickmonteiro3.png" class="img-circle-head">
@@ -71,7 +68,7 @@
               <div class="tile is-vertical is-4">
                 <div class="tile">
                   <div class="tile is-parent is-vertical">
-                    <article class="tile is-child notification is-primary">
+                    <article class="tile is-child notification is-info">
                     <div class="padding-bottom-2">
                       <p class="is-size-6 is-block "> <icon name="map-pin" scale="1.1" class="margin-left-2 "></icon> Belém-PA</p>
                       <p class="is-size-6 is-block"> <icon name="envelope" scale="1.1" class="margin-left-2"></icon> eng.patrickmonteiro@gmail.com</p>
@@ -81,41 +78,42 @@
                     <article class="tile is-child notification is-primary"> -->
                     <div>
                       <p class="title">Skills</p>
-                      <p class="is-size-6 padding-bottom-1">
-                        Vue.js
-                        <progress class="progress is-danger" value="85" max="100">90%</progress> 
+                      <p class="is-size-5 padding-bottom-1">
+                        <strong>Vue.js</strong> <progress class="progress is-link" value="85" max="100">90%</progress> 
                       </p>
-                      <p class="is-size-6 padding-bottom-1">
-                        Codeigniter
-                        <progress class="progress is-danger" value="80" max="100">90%</progress> 
+                      <p class="is-size-5 padding-bottom-1">
+                        <strong>Codeigniter</strong> <progress class="progress is-link" value="80" max="100">90%</progress> 
                       </p>
-                      <p class="is-size-6 padding-bottom-1">
-                        Bootstrap
-                        <progress class="progress is-danger" value="83" max="100">90%</progress> 
+                      <p class="is-size-5 padding-bottom-1">
+                        <strong>Bootstrap</strong> <progress class="progress is-link" value="83" max="100">90%</progress> 
                       </p>
-                       <p class="is-size-6 padding-bottom-1">
-                        Bulma
-                        <progress class="progress is-danger" value="55" max="100">90%</progress> 
+                       <p class="is-size-5 padding-bottom-1">
+                        <strong>Bulma</strong> <progress class="progress is-link" value="55" max="100">90%</progress> 
                       </p>
-                      <p class="is-size-6 padding-bottom-1">
-                        PHP
-                        <progress class="progress is-danger" value="60" max="100">90%</progress> 
+                      <p class="is-size-5 padding-bottom-1">
+                        <strong>PHP</strong> <progress class="progress is-link" value="60" max="100">90%</progress> 
                       </p>
-                       <p class="is-size-6 padding-bottom-1">
-                        JavaScript
-                        <progress class="progress is-danger" value="70" max="100">90%</progress> 
+                       <p class="is-size-5 padding-bottom-1">
+                        <strong>JavaScript</strong> <progress class="progress is-link" value="70" max="100">90%</progress> 
                       </p>
-                      <p class="is-size-6 padding-bottom-1">
-                        ASP Classic
-                        <progress class="progress is-danger" value="60" max="100">60%</progress> 
+                      <p class="is-size-5 padding-bottom-1">
+                        <strong>ASP Classic</strong> <progress class="progress is-link" value="60" max="100">60%</progress> 
                       </p>
-                       <p class="is-size-6 padding-bottom-1">
-                        HTML5
-                        <progress class="progress is-danger" value="90" max="100">90%</progress> 
+                      <p class="is-size-5 padding-bottom-1">
+                        <strong>MySQL</strong> <progress class="progress is-link" value="50" max="100">60%</progress> 
                       </p>
-                       <p class="is-size-6 padding-bottom-1">
-                        CSS3
-                        <progress class="progress is-danger" value="60" max="100">90%</progress> 
+                      <p class="is-size-5 padding-bottom-1">
+                        <strong>SQL</strong> <progress class="progress is-link" value="50" max="100">60%</progress> 
+                      </p>
+                       <p class="is-size-5 padding-bottom-1">
+                        <strong>HTML5</strong> <progress class="progress is-link" value="90" max="100">90%</progress> 
+                      </p>
+                       <p class="is-size-5 padding-bottom-1">
+                        <strong>CSS3</strong> <progress class="progress is-link" value="60" max="100">90%</progress> 
+                      </p>
+                      <p class="is-size-6">
+                        <strong>Outros conhecimentos:</strong>
+                        Microcontrolador Arduíno, Android(básico), Java Básico, Java EE, Hibernate, SQL, Scrum, Kanban, Processo Ágil, AngularJS, Ionic Framework, CodeIgniter, Ruby on Rails.
                       </p>
                     </div>
                     </article>
@@ -125,37 +123,52 @@
               <div class="tile is-vertical is-8">
                 <div class="tile">
                   <div class="tile is-parent is-vertical">
-                    <article class="tile is-child notification is-primary is-bold ">
+                    <article class="tile is-child notification is-info is-bold ">
                       <p class="title">Sobre</p>
-                      <p class="is-size-6">
+                      <p class="is-size-5 has-text-justified">
                       Sou um Abaetetubense morando em Belém há mais ou menos 10 anos. Trabalho como Analista de Sistemas na W3AS,
                         sendo o responsável por otimizar, melhorar e inovar a arquitetura Front-end dos novos produtos, e ajudar na migração de
                         produtos legados. Possuo certificação internacional em UX, e busco disseminar a cultura UX pela empresa.</p>
-                      <p  class="is-size-6">
+                      <p  class="is-size-5 has-text-justified">
                         Nas horas vagas escrevo artigos para o blog <a href="http://viladosilicio.com.br">Vila do Silício</a>. Gosto de vôlei, livros, séries, rock e games.
                       </p>
                     </article>
-                    <article class="tile is-child notification is-primary is-bold content">
+                    <article class="tile is-child notification is-info is-bold content">
                       <p class="title">Experiências</p>
                       <ul>
                         <li>
                            <p class="padding-bottom-2">
-                            <span class="is-size-4 is-block"> Analista de Sistemas </span>
-                            <span class="is-size-6">
-                              Sou um Abaetetubense morando em Belém há mais ou menos 10 anos. Trabalho como Analista de Sistemas na W3AS,
-                              sendo o responsável por otimizar, melhorar e inovar a arquitetura Front-end dos novos produtos, e ajudar na migração de
-                              produtos legados. Possuo certificação internacional em UX, e busco disseminar a cultura UX pela empresa.
+                            <span class="is-size-4 is-block"> <strong>Analista de Sistemas</strong> - W3 Automação e Sistemas </span>
+                            <span class="is-size-5 has-text-justified">
+                              Responsável pela Arquitetura e Liderança da equipe Front-End. Difusor da cultura UX na empresa, colaborando na migração de sistemas legados, desenvolvimento de novos produtos e otimização da performance de sistemas Web. 
+                              Tecnologias utilizadas: Vue.js, Electron, Quasar, HTML5,HTML4, CSS3, JavaScript, ASP Classic, Transact-SQL, Canvas;
                             </span>
                           </p>
                         </li>
-                    
                         <li>
                           <p class="padding-bottom-2">
-                            <span class="is-size-4 is-block"> Desenvolvedor Web </span>
-                            <span class="is-size-6">
-                              Sou um Abaetetubense morando em Belém há mais ou menos 10 anos. Trabalho como Analista de Sistemas na W3AS,
-                              sendo o responsável por otimizar, melhorar e inovar a arquitetura Front-end dos novos produtos, e ajudar na migração de
-                              produtos legados. Possuo certificação internacional em UX, e busco disseminar a cultura UX pela empresa.
+                            <span class="is-size-4 is-block"> <strong> Desenvolvedor Web </strong> - Solux </span>
+                            <span class="is-size-5 has-text-justified">
+                              Reestruturação do sistema Okay, um sistema ERP de baixo custo online.
+                              O sistema foi desenvolvido utilizando a linguagem de programação PHP e o SGBD MySql.
+                            </span>
+                          </p>
+                        </li>
+                        <li>
+                          <p class="padding-bottom-2">
+                            <span class="is-size-4 is-block"> <strong> Desenvolvedor Web </strong> - Vetec Engenharia LTDA </span>
+                            <span class="is-size-5 has-text-justified">
+                              Desenvolvimento e Manutenção do SIG(Sistema Integrado Gerencial) no Consórcio Troncal Belém. O sistema foi desenvolvido utilizando a linguagem de programação PHP e o SGBD MySql. 
+                              Além disso, a utilização de padrões de desenvolvimento como MVC, PDO e DAO eram o ponto chave para a organização e manutenibilidade.
+                              E Posteriormente foi usada a metodologia ágil Scrum para a gestão e planejamento do projeto.
+                            </span>
+                          </p>
+                        </li>
+                        <li>
+                          <p class="padding-bottom-2">
+                            <span class="is-size-4 is-block"> <strong> Estagiário em Desenvolvimento Web</strong> - W3 Automação e Sistemas </span>
+                            <span class="is-size-5 has-text-justified">
+                              Desenvolvimento de web sites utilizando Joomla, PHP, HTML e CSS.
                             </span>
                           </p>
                         </li>
@@ -169,6 +182,20 @@
                 </div>
               </div>
             </div>
+
+            <!-- <div class="tile is-vertical is-4">
+                <div class="tile">
+                  <div class="tile is-parent is-vertical">
+                    <article class="tile is-child notification is-info">
+                        <p class="title">Palestras</p>
+                        <figure class="image is-5by4">
+                          <img src="/static/image/html5.png">
+                        </figure>
+                        <p>Princípios de desenvolvimento web com HTML5, CSS3 E JavaScript.</p>
+                      </article>
+                  </div>
+                </div>
+              </div> -->
 
         </div>
       </section>
