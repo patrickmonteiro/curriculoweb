@@ -135,8 +135,8 @@
                     </article>
                     <article class="tile is-child notification is-info is-bold content">
                       <p class="title">Experiências</p>
-                      <ul>
-                        <li>
+                      <!-- <ul>
+                        <li> -->
                            <p class="padding-bottom-2">
                             <span class="is-size-4 is-block"> <strong>Analista de Sistemas</strong> - W3 Automação e Sistemas </span>
                             <span class="is-size-5 has-text-justified">
@@ -144,8 +144,8 @@
                               Tecnologias utilizadas: Vue.js, Electron, Quasar, HTML5,HTML4, CSS3, JavaScript, ASP Classic, Transact-SQL, Canvas;
                             </span>
                           </p>
-                        </li>
-                        <li>
+                        <!-- </li>
+                        <li> -->
                           <p class="padding-bottom-2">
                             <span class="is-size-4 is-block"> <strong> Desenvolvedor Web </strong> - Solux </span>
                             <span class="is-size-5 has-text-justified">
@@ -153,8 +153,8 @@
                               O sistema foi desenvolvido utilizando a linguagem de programação PHP e o SGBD MySql.
                             </span>
                           </p>
-                        </li>
-                        <li>
+                        <!-- </li>
+                        <li> -->
                           <p class="padding-bottom-2">
                             <span class="is-size-4 is-block"> <strong> Desenvolvedor Web </strong> - Vetec Engenharia LTDA </span>
                             <span class="is-size-5 has-text-justified">
@@ -163,16 +163,16 @@
                               E Posteriormente foi usada a metodologia ágil Scrum para a gestão e planejamento do projeto.
                             </span>
                           </p>
-                        </li>
-                        <li>
+                        <!-- </li>
+                        <li> -->
                           <p class="padding-bottom-2">
                             <span class="is-size-4 is-block"> <strong> Estagiário em Desenvolvimento Web</strong> - W3 Automação e Sistemas </span>
                             <span class="is-size-5 has-text-justified">
                               Desenvolvimento de web sites utilizando Joomla, PHP, HTML e CSS.
                             </span>
                           </p>
-                        </li>
-                      </ul>
+                        <!-- </li>
+                      </ul> -->
                     </article>
                     <!-- <article class="tile is-child notification is-warning">
                       <p class="title">...tiles</p>
@@ -183,28 +183,78 @@
               </div>
             </div>
 
-            <!-- <div class="tile is-vertical is-4">
+            <div class="tile is-ancestor">
+              <div class="tile is-vertical is-12">
                 <div class="tile">
                   <div class="tile is-parent is-vertical">
                     <article class="tile is-child notification is-info">
-                        <p class="title">Palestras</p>
-                        <figure class="image is-5by4">
-                          <img src="/static/image/html5.png">
-                        </figure>
-                        <p>Princípios de desenvolvimento web com HTML5, CSS3 E JavaScript.</p>
+                        <p class="title">Cursos e Certtificados</p>
+                        <!-- <p class="padding-bottom-2">
+                            <span class="is-size-4 is-block"> <strong>Analista de Sistemas</strong> - W3 Automação e Sistemas </span>
+                            <span class="is-size-5 has-text-justified">
+                              Responsável pela Arquitetura e Liderança da equipe Front-End. Difusor da cultura UX na empresa, colaborando na migração de sistemas legados, desenvolvimento de novos produtos e otimização da performance de sistemas Web. 
+                              Tecnologias utilizadas: Vue.js, Electron, Quasar, HTML5,HTML4, CSS3, JavaScript, ASP Classic, Transact-SQL, Canvas;
+                            </span>
+                        </p> -->
+                        
+                        <div class="columns is-multiline">
+                          <div class="column is-3" v-for="certificado in certificados" :key="certificado.dataCurso">
+                            <div class="card">
+                              <div class="card-image">
+                                <figure class="image is-3by2">
+                                  <img :src="certificado.imagem" alt="Placeholder image">
+                                </figure>
+                              </div>
+                              <div class="card-content">
+                                <div class="media">
+                                  <div class="media-content">
+                                    <p class="title is-6 is-uppercase" style="min-height:2rem">{{ certificado.curso }}</p>
+                                    <p class="subtitle is-6">
+                                      {{ certificado.orgao }}
+                                    </p>
+                                  </div>
+                                </div>
+                                <div class="content has-text-right ">
+                                  <time datetime="2018-05-18">{{ certificado.dataCurso }}</time>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
                       </article>
                   </div>
                 </div>
-              </div> -->
-
+              </div>
+            </div>            
         </div>
       </section>
+
     </div>
 </template>
 
 <script>
 export default {
-  name: 'App'
+  name: 'App',
+  data(){
+    return{
+      certificados: [
+        { 
+          id: 1,
+          curso: 'International Certification UX-PM level 1',
+          imagem: '/static/certificados/vue-1.PNG',
+          dataCurso: 'Maio de 2018',
+          orgao: 'UXAliance',
+        },
+        { 
+          id: 2,
+          curso: 'VUE.JS PARTE 1: CONSTRUINDO SINGLE PAGE APPLICATIONS',
+          imagem: '/static/certificados/vue-1.PNG',
+          dataCurso: 'Maio de 2018',
+          orgao: 'UXAliance',
+        },
+      ]
+    }
+  }
 }
 </script>
 
@@ -229,7 +279,7 @@ section {
 }
 
 .column {
-  border: 1px solid black;
+  /* border: 1px solid black; */
 }
 .teste {
    border: 1px solid black;
