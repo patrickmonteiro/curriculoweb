@@ -411,7 +411,7 @@ export default {
         { 
           id: 22,
           curso: 'PHP: ORIENTAÇÃO A OBJETOS',
-          imagem: '/static/certificados/php-orientacao-a-objetos.jpg',
+          imagem: '/static/certificados/php-orientacao-a-objeto.jpg',
           dataCurso: 'Junho de 2016',
           orgao: 'Alura',
         },
