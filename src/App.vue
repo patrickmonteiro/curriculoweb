@@ -33,7 +33,7 @@
                     Patrick Monteiro
                   </h1>
                   <h2 class="subtitle">
-                    Especialista em Desenvolvimento Web
+                    Web Development Specialist
                   </h2>
                    <a class="button is-light has-text-link" style="border-radius:50%" title="Github"
                    href="https://github.com/patrickmonteiro">
@@ -72,48 +72,51 @@
                     <div class="padding-bottom-2">
                       <p class="is-size-6 is-block "> <icon name="map-pin" scale="1.1" class="margin-left-2 "></icon> Belém-PA</p>
                       <p class="is-size-6 is-block"> <icon name="envelope" scale="1.1" class="margin-left-2"></icon> eng.patrickmonteiro@gmail.com</p>
-                      <p class="is-size-6 is-block"> <icon name="globe" scale="1.1" class="margin-left-2"></icon> <a class="link-site" href="http:www.patrickmonteiro.com.br">patrickmonteiro.com.br</a></p>
+                      <p class="is-size-6 is-block"> <icon name="globe" scale="1.1" class="margin-left-2"></icon> <a class="link-site" href="http://www.patrickmonteiro.com.br" target="_blank">patrickmonteiro.com.br</a></p>
                     </div>
                     <!-- </article>
                     <article class="tile is-child notification is-primary"> -->
                     <div>
                       <p class="title">Skills</p>
                       <p class="is-size-5 padding-bottom-1">
-                        <strong>Vue.js</strong> <progress class="progress is-link" value="85" max="100">90%</progress> 
+                        <strong>Vue.js</strong> <progress class="progress is-link" value="85" title="85%" max="100">90%</progress>
                       </p>
                       <p class="is-size-5 padding-bottom-1">
-                        <strong>Codeigniter</strong> <progress class="progress is-link" value="80" max="100">90%</progress> 
+                        <strong>Vuex</strong> <progress class="progress is-link" value="65" title="65%" max="100">65%</progress>
                       </p>
                       <p class="is-size-5 padding-bottom-1">
-                        <strong>Bootstrap</strong> <progress class="progress is-link" value="83" max="100">90%</progress> 
+                        <strong>Codeigniter</strong> <progress class="progress is-link" value="80" title="90" max="100">90%</progress>
+                      </p>
+                      <p class="is-size-5 padding-bottom-1">
+                        <strong>Bootstrap</strong> <progress class="progress is-link" value="83" max="100">83%</progress>
                       </p>
                        <p class="is-size-5 padding-bottom-1">
-                        <strong>Bulma</strong> <progress class="progress is-link" value="55" max="100">90%</progress> 
+                        <strong>Bulma</strong> <progress class="progress is-link" value="55" max="100">55%</progress>
                       </p>
                       <p class="is-size-5 padding-bottom-1">
-                        <strong>PHP</strong> <progress class="progress is-link" value="60" max="100">90%</progress> 
+                        <strong>PHP</strong> <progress class="progress is-link" value="60" max="100">60%</progress>
                       </p>
                        <p class="is-size-5 padding-bottom-1">
-                        <strong>JavaScript</strong> <progress class="progress is-link" value="70" max="100">90%</progress> 
+                        <strong>JavaScript</strong> <progress class="progress is-link" value="70" max="100">70%</progress>
                       </p>
                       <p class="is-size-5 padding-bottom-1">
-                        <strong>ASP Classic</strong> <progress class="progress is-link" value="60" max="100">60%</progress> 
+                        <strong>ASP Classic</strong> <progress class="progress is-link" value="60" max="100">60%</progress>
                       </p>
                       <p class="is-size-5 padding-bottom-1">
-                        <strong>MySQL</strong> <progress class="progress is-link" value="50" max="100">60%</progress> 
+                        <strong>MySQL</strong> <progress class="progress is-link" value="50" max="100">50%</progress>
                       </p>
                       <p class="is-size-5 padding-bottom-1">
-                        <strong>SQL</strong> <progress class="progress is-link" value="50" max="100">60%</progress> 
+                        <strong>SQL</strong> <progress class="progress is-link" value="50" max="100">50%</progress>
                       </p>
                        <p class="is-size-5 padding-bottom-1">
-                        <strong>HTML5</strong> <progress class="progress is-link" value="90" max="100">90%</progress> 
+                        <strong>HTML5</strong> <progress class="progress is-link" value="90" max="100">90%</progress>
                       </p>
                        <p class="is-size-5 padding-bottom-1">
-                        <strong>CSS3</strong> <progress class="progress is-link" value="60" max="100">90%</progress> 
+                        <strong>CSS3</strong> <progress class="progress is-link" value="60" max="100">60%</progress>
                       </p>
                       <p class="is-size-6">
                         <strong>Outros conhecimentos:</strong>
-                        Microcontrolador Arduíno, Android(básico), Java Básico, Java EE, Hibernate, SQL, Scrum, Kanban, Processo Ágil, AngularJS, Ionic Framework, CodeIgniter, Ruby on Rails.
+                        Microcontrolador Arduíno, Android, Java, Java EE, Hibernate, SQL, Scrum, Kanban, Agile, Angular, Ionic Framework, CodeIgniter, Ruby on Rails.
                       </p>
                     </div>
                     </article>
@@ -124,51 +127,57 @@
                 <div class="tile">
                   <div class="tile is-parent is-vertical">
                     <article class="tile is-child notification is-info is-bold ">
-                      <p class="title">Sobre</p>
+                      <p class="title">About me</p>
                       <p class="is-size-5 has-text-justified">
-                      Sou um Abaetetubense morando em Belém há mais ou menos 10 anos. Trabalho como Analista de Sistemas na W3AS,
-                        sendo o responsável por otimizar, melhorar e inovar a arquitetura Front-end dos novos produtos, e ajudar na migração de
-                        produtos legados. Possuo certificação internacional em UX, e busco disseminar a cultura UX pela empresa.</p>
-                      <p  class="is-size-5 has-text-justified">
-                        Nas horas vagas escrevo artigos para o blog <a href="http://viladosilicio.com.br">Vila do Silício</a>. Gosto de vôlei, livros, séries, rock e games.
+                        I have been with web development for 5 years.
+                        Currently, I am Front-End Architect at W3AS, a banking automation company.
+                        I seek to innovate and optimize the projects of the company.
+                        One of my missions was to migrated legacy projects to web applications using Vue, Vuex, Quasar, Electron and other technologies.
+                        I seek to keep the team aligned by reviewing my knowledge whenever possible.
+                        In the vacant hours I record video lessons for <a href="https://www.youtube.com/channel/UCA2Pi4938l8S5LFlLpXh9Pw" target="_blank">my channel</a>
+                        and write articles for the <a href="http://viladosilicio.com.br" target="_blank">Silicon Village</a> blog.
                       </p>
+                      <!-- <p  class="is-size-5 has-text-justified">
+                        Nas horas vagas escrevo artigos para o blog <a href="http://viladosilicio.com.br">Vila do Silício</a>. Gosto de vôlei, livros, séries, rock e games.
+                      </p> -->
                     </article>
                     <article class="tile is-child notification is-info is-bold content">
-                      <p class="title">Experiências</p>
+                      <p class="title">Work Experiences</p>
                       <!-- <ul>
                         <li> -->
                            <p class="padding-bottom-2">
-                            <span class="is-size-4 is-block"> <strong>Analista de Sistemas</strong> - W3 Automação e Sistemas </span>
+                            <span class="is-size-4 is-block"> <strong>Systems Analyst</strong> - W3 Automation e Systems </span>
+                            <span class="is-size-6 is-block"> <strong>Current Job</strong></span>
                             <span class="is-size-5 has-text-justified">
-                              Responsável pela Arquitetura e Liderança da equipe Front-End. Difusor da cultura UX na empresa, colaborando na migração de sistemas legados, desenvolvimento de novos produtos e otimização da performance de sistemas Web. 
-                              Tecnologias utilizadas: Vue.js, Electron, Quasar, HTML5,HTML4, CSS3, JavaScript, ASP Classic, Transact-SQL, Canvas;
+                              Lead Front End Architect and UX Culture Preacher
                             </span>
                           </p>
                         <!-- </li>
                         <li> -->
                           <p class="padding-bottom-2">
-                            <span class="is-size-4 is-block"> <strong> Desenvolvedor Web </strong> - Solux </span>
+                            <span class="is-size-4 is-block"> <strong>Web Developer </strong> - Solux </span>
+                            <span class="is-size-6 is-block"> <strong>jun 2015 - jan 2016</strong></span>
                             <span class="is-size-5 has-text-justified">
-                              Reestruturação do sistema Okay, um sistema ERP de baixo custo online.
-                              O sistema foi desenvolvido utilizando a linguagem de programação PHP e o SGBD MySql.
+                              Restructuring the Okay system, an inexpensive online ERP system.
+                              The system was developed using the PHP programming language and the MySql DBMS.
                             </span>
                           </p>
                         <!-- </li>
                         <li> -->
                           <p class="padding-bottom-2">
-                            <span class="is-size-4 is-block"> <strong> Desenvolvedor Web </strong> - Vetec Engenharia LTDA </span>
+                            <span class="is-size-4 is-block"> <strong> Web Developer </strong> - Vetec Engineering LTDA </span>
+                            <span class="is-size-6 is-block"> <strong>out 2014 - jun 2015</strong></span>
                             <span class="is-size-5 has-text-justified">
-                              Desenvolvimento e Manutenção do SIG(Sistema Integrado Gerencial) no Consórcio Troncal Belém. O sistema foi desenvolvido utilizando a linguagem de programação PHP e o SGBD MySql. 
-                              Além disso, a utilização de padrões de desenvolvimento como MVC, PDO e DAO eram o ponto chave para a organização e manutenibilidade.
-                              E Posteriormente foi usada a metodologia ágil Scrum para a gestão e planejamento do projeto.
+                              Development and Maintenance of the IMS (Integrated Management System) in the Consórcio Troncal Belém.
                             </span>
                           </p>
                         <!-- </li>
                         <li> -->
                           <p class="padding-bottom-2">
-                            <span class="is-size-4 is-block"> <strong> Estagiário em Desenvolvimento Web</strong> - W3 Automação e Sistemas </span>
+                            <span class="is-size-4 is-block"> <strong> Trainee in Web Development</strong> - W3 Automation e Systems </span>
+                            <span class="is-size-6 is-block"> <strong>jun 2011 - dez 2011</strong></span>
                             <span class="is-size-5 has-text-justified">
-                              Desenvolvimento de web sites utilizando Joomla, PHP, HTML e CSS.
+                              Development of web sites using Joomla, PHP, HTML and CSS.
                             </span>
                           </p>
                         <!-- </li>
@@ -201,14 +210,13 @@
                         <!-- <p class="padding-bottom-2">
                             <span class="is-size-4 is-block"> <strong>Analista de Sistemas</strong> - W3 Automação e Sistemas </span>
                             <span class="is-size-5 has-text-justified">
-                              Responsável pela Arquitetura e Liderança da equipe Front-End. Difusor da cultura UX na empresa, colaborando na migração de sistemas legados, desenvolvimento de novos produtos e otimização da performance de sistemas Web. 
+                              Responsável pela Arquitetura e Liderança da equipe Front-End. Difusor da cultura UX na empresa, colaborando na migração de sistemas legados, desenvolvimento de novos produtos e otimização da performance de sistemas Web.
                               Tecnologias utilizadas: Vue.js, Electron, Quasar, HTML5,HTML4, CSS3, JavaScript, ASP Classic, Transact-SQL, Canvas;
                             </span>
                         </p> -->
-                        
                         <div class="columns is-multiline" v-show="exibeCertificados">
                           <div class="column is-4" v-for="certificado in certificados" :key="certificado.id">
-                            <div class="card">
+                            <div class="card" @click="showModal(certificado.imagem)">
                               <div class="card-image">
                                 <figure class="image is-3by2">
                                   <img :src="certificado.imagem" alt="Placeholder image">
@@ -230,11 +238,20 @@
                             </div>
                           </div>
                         </div>
+                        <div class="modal" ref="modal">
+                          <div class="modal-background" @click="hideModal()"></div>
+                          <div class="modal-content">
+                            <p class="image is-4by3">
+                              <img :src="imagemModal" alt="">
+                            </p>
+                          </div>
+                          <button class="modal-close is-large" aria-label="close" @click="hideModal()"></button>
+                        </div>
                       </article>
                   </div>
                 </div>
               </div>
-            </div>            
+            </div>
         </div>
       </section>
 
@@ -242,240 +259,31 @@
 </template>
 
 <script>
+import certificados from '@/assets/certificadosData'
 export default {
   name: 'App',
-  data(){
-    return{
-      certificados: [
-        { 
-          id: 0,
-          curso: 'MARATONA XAMARIN',
-          imagem: '/static/certificados/xamarin-microsoft.jpg',
-          dataCurso: 'Março de 2017',
-          orgao: 'UXAliance',
-        },
-        { 
-          id: 1,
-          curso: 'International Certification UX-PM level 1',
-          imagem: '/static/certificados/angular-1-crie-webapps-poderosas.jpg',
-          dataCurso: 'Maio de 2018',
-          orgao: 'UXAliance',
-        },
-        { 
-          id: 2,
-          curso: 'ANGULAR 1: CRIE WEBAPPS PODEROSAS',
-          imagem: '/static/certificados/angular-1-crie-webapps-poderosas.jpg',
-          dataCurso: 'Agosto de 2016',
-          orgao: 'Alura',
-        },
-        { 
-          id: 3,
-          curso: 'ASP.NET MVC 5:O FRAMEWORK PRONTO PARA A WEB',
-          imagem: '/static/certificados/asp-net-mvc-5.jpg',
-          dataCurso: 'Junho de 2017',
-          orgao: 'Alura',
-        },
-        { 
-          id: 4,
-          curso: 'CODEIGNITER I: PROGRAMANDO ELEGANTEMENTE PARA WEB',
-          imagem: '/static/certificados/codeiginiter-1.jpg',
-          dataCurso: 'Junho de 2017',
-          orgao: 'Alura',
-        },
-        { 
-          id: 5,
-          curso: 'CODEIGNITER II: MAIS TÉCNICAS E BOAS PRÁTICAS',
-          imagem: '/static/certificados/codeiginiter-2.jpg',
-          dataCurso: 'Junho de 2018',
-          orgao: 'Alura',
-        },
-        { 
-          id: 6,
-          curso: 'C# I: FUNDAMENTOS DA LINGUAGEM',
-          imagem: '/static/certificados/CSharp-1.jpg',
-          dataCurso: 'Agosto de 2016',
-          orgao: 'Alura',
-        },
-        { 
-          id: 7,
-          curso: 'C# II: ORIENTAÇÃO A OBJETO',
-          imagem: '/static/certificados/CSharp-1.jpg',
-          dataCurso: 'Outubro de 2016',
-          orgao: 'Alura',
-        },
-        { 
-          id: 8,
-          curso: 'C# III: LIDANDO COM EXCEÇÕES',
-          imagem: '/static/certificados/CSharp-1.jpg',
-          dataCurso: 'Outubro de 2016',
-          orgao: 'Alura',
-        },
-        { 
-          id: 9,
-          curso: 'ELECTRON: APLICATIVOS DESKTOP COM TECNOLOGIAS WEB',
-          imagem: '/static/certificados/electron.jpg',
-          dataCurso: 'Agosto de 2017',
-          orgao: 'Alura',
-        },
-        { 
-          id: 10,
-          curso: 'ENTITY: BANCO DE DADOS DE FORMA EFICIENTE',
-          imagem: '/static/certificados/entity-framework.jpg',
-          dataCurso: 'Junho de 2017',
-          orgao: 'Alura',
-        },
-        { 
-          id: 11,
-          curso: 'FACEBOOK: CRIAÇÃO DE IMAGENS E ANÚNCIOS',
-          imagem: '/static/certificados/facebook.jpg',
-          dataCurso: 'Abril de 2017',
-          orgao: 'Alura',
-        },
-        { 
-          id: 12,
-          curso: 'HTML5 E CSS3 I',
-          imagem: '/static/certificados/html5-css3-1.jpg',
-          dataCurso: 'Setembro de 2017',
-          orgao: 'Alura',
-        },
-        { 
-          id: 13,
-          curso: 'HTTP: ENTENDENDO A WEB',
-          imagem: '/static/certificados/http-1.jpg',
-          dataCurso: 'Junho de 2017',
-          orgao: 'Alura',
-        },
-        { 
-          id: 14,
-          curso: 'JAVA I: PRIMEIROS PASSOS',
-          imagem: '/static/certificados/java-1.jpg',
-          dataCurso: 'Outubro de 2017',
-          orgao: 'Alura',
-        },
-        { 
-          id: 15,
-          curso: 'JAVASCRIPT',
-          imagem: '/static/certificados/javascript-1.jpg',
-          dataCurso: 'Maio de 2016',
-          orgao: 'Alura',
-        },
-        { 
-          id: 16,
-          curso: 'JQUERY',
-          imagem: '/static/certificados/jquery-1.jpg',
-          dataCurso: 'Maio de 2016',
-          orgao: 'Alura',
-        },
-        { 
-          id: 17,
-          curso: 'MARKETING DIGITAL',
-          imagem: '/static/certificados/marketing-digital-1.jpg',
-          dataCurso: 'Março de 2016',
-          orgao: 'Alura',
-        },
-        { 
-          id: 18,
-          curso: 'MYSQL I: INICIANDO SUAS CONSULTAS',
-          imagem: '/static/certificados/mysql-1.jpg',
-          dataCurso: 'Setembro de 2015',
-          orgao: 'Alura',
-        },
-        { 
-          id: 19,
-          curso: 'MYSQL II: CONSULTAS PODEROSAS',
-          imagem: '/static/certificados/mysql-2.jpg',
-          dataCurso: 'Maio de 2016',
-          orgao: 'Alura',
-        },
-        { 
-          id: 20,
-          curso: 'PERFORMANCE WEB I: OTIMIZANDO O FRONT-END',
-          imagem: '/static/certificados/performance-web-1.jpg',
-          dataCurso: 'Maio de 2018',
-          orgao: 'Alura',
-        },
-        { 
-          id: 21,
-          curso: 'PHP E MYSQL I: FUNDAMENTOS PARA CRIAR UM SISTEMA NA WEB',
-          imagem: '/static/certificados/php-mysql-1.jpg',
-          dataCurso: 'Novembro de 2015',
-          orgao: 'Alura',
-        },
-        { 
-          id: 210,
-          curso: 'PHP E MYSQL II: COOKIES, SESSÕES E MAIS RECURSOS',
-          imagem: '/static/certificados/php-mysql-2.jpg',
-          dataCurso: 'Junho de 2016',
-          orgao: 'Alura',
-        },
-        { 
-          id: 22,
-          curso: 'PHP: ORIENTAÇÃO A OBJETOS',
-          imagem: '/static/certificados/php-orientacao-a-objeto.jpg',
-          dataCurso: 'Junho de 2016',
-          orgao: 'Alura',
-        },
-        { 
-          id: 23,
-          curso: 'RUBY ON RAILS 4: DO ZERO À WEB',
-          imagem: '/static/certificados/ruby-on-rails-4.jpg',
-          dataCurso: 'Janeiro de 2016',
-          orgao: 'Alura',
-        },
-        { 
-          id: 24,
-          curso: 'UX: O QUE É EXPERIÊNCIA DE USUÁRIO',
-          imagem: '/static/certificados/ux-1.jpg',
-          dataCurso: 'Dezembro de 2017',
-          orgao: 'Alura',
-        },
-        { 
-          id: 25,
-          curso: 'UX USABILITY: FACILITE A VIDA DO SEU USUÁRIO MOBILE',
-          imagem: '/static/certificados/ux-2.jpg',
-          dataCurso: 'Maio de 2018',
-          orgao: 'Alura',
-        },
-        { 
-          id: 26,
-          curso: 'UX STRATEGY: DIVERGINDO E AFUNILANDO IDEIAS',
-          imagem: '/static/certificados/ux-3.jpg',
-          dataCurso: 'Abril de 2018',
-          orgao: 'Alura',
-        },
-        { 
-          id: 27,
-          curso: 'UX PRODUTO: MONITORE, MENSURE E TESTE',
-          imagem: '/static/certificados/ux-4.jpg',
-          dataCurso: 'Maio de 2018',
-          orgao: 'Alura',
-        },
-        { 
-          id: 28,
-          curso: 'VUE.JS PARTE 1',
-          imagem: '/static/certificados/vue-1.jpg',
-          dataCurso: 'Outubro de 2017',
-          orgao: 'Alura',
-        },
-        { 
-          id: 29,
-          curso: 'VUE.JS PARTE 2',
-          imagem: '/static/certificados/vue-2.jpg',
-          dataCurso: 'Outubro de 2017',
-          orgao: 'Alura',
-        },
-      ],
+  data () {
+    return {
+      certificados: certificados,
       exibeCertificados: false,
+      imagemModal: ''
     }
   },
   methods: {
-    showCertificados() {
-      this.exibeCertificados = !this.exibeCertificados;
+    showCertificados () {
+      this.exibeCertificados = !this.exibeCertificados
       // this.$refs.certificados.scrollTop = 0;
       // console.log(this.exibeCertificados);
       setTimeout(() => {
-        document.getElementById('certificados').scrollIntoView({block: "start", behavior: 'smooth' });
-      }, 200);
+        document.getElementById('certificados').scrollIntoView({ block: 'start', behavior: 'smooth' })
+      }, 200)
+    },
+    showModal (imagemModal) {
+      this.imagemModal = imagemModal
+      this.$refs.modal.classList.add('is-active')
+    },
+    hideModal () {
+      this.$refs.modal.classList.remove('is-active')
     }
   }
 }
@@ -492,6 +300,9 @@ html{
 }
 .hero-bottom{
   margin-bottom: 0.8rem;
+}
+.card {
+  cursor: pointer;
 }
 section {
   /* border: 1px solid black; */
@@ -527,7 +338,6 @@ section {
 .link-site:hover {
   color: hsl(348, 100%, 61%) !important;
 }
-
 
 /* .column{
   margin: 0.2em;
